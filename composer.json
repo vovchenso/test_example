@@ -1,0 +1,28 @@
+{
+    "name": "test/test",
+    "description": "",
+    "authors": [
+        {
+            "name": "Volodymyr Maliuchenko",
+            "email": "mvv.feo@gmail.com"
+        }
+    ],
+
+    "config": {
+        "bin-dir": "bin"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "App": "src/"
+        }
+    },
+
+    "require": {
+        "phpunit/phpunit": "3.7.*",
+        "phpunit/php-invoker" : ">=1.1.0@stable",
+        "mikey179/vfsStream": "1.1.0"
+    },
+
+    "minimum-stability": "dev"
+}
